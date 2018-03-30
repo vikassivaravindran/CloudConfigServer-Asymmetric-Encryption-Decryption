@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configclient
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8888
+server:
+  port: 9005
+encrypt:
+  key: password
